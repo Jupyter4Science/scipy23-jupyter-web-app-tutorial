@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "jupyter-web-app-template"
+  site-url: "https://nicole-brewer.github.io/jupyter-web-app-template"
+  description: "A template for creating a standalone web application with ipywidgets, Voila, and nbdev"
+  repo-branch: main
+  repo-url: "https://github.com/nicole-brewer/jupyter-web-app-template"
