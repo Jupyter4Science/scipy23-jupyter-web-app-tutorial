@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "How the Little Jupyter Notebook Became a Web App: A Tutorial for Making Your Code and Data More Accessible and Reusable",
+    "section": "",
+    "text": "Prior exposure to ipywidgets and/or familiarity with object-oriented programming is recommended. We review the basics of ipywidgets within the first hour and quickly move on to more advanced design principles."
+  },
+  {
+    "objectID": "index.html#prerequisites",
+    "href": "index.html#prerequisites",
+    "title": "How the Little Jupyter Notebook Became a Web App: A Tutorial for Making Your Code and Data More Accessible and Reusable",
+    "section": "",
+    "text": "Prior exposure to ipywidgets and/or familiarity with object-oriented programming is recommended. We review the basics of ipywidgets within the first hour and quickly move on to more advanced design principles."
+  },
+  {
+    "objectID": "index.html#binder",
+    "href": "index.html#binder",
+    "title": "How the Little Jupyter Notebook Became a Web App: A Tutorial for Making Your Code and Data More Accessible and Reusable",
+    "section": "Binder",
+    "text": "Binder\nThere are two ways to access this tutorial. You can launch these notebooks in a Binder environment by clicking the badge below. This requires not extra installation on your part. Just click the link and follow along.\n\n\n\nBinder\n\n\n\nHow long will my Binder session last?\nBinder will automatically shut down user sessions that have more than 10 minutes of inactivity (if you leave a jupyterlab window open in the foreground, this will generally be counted as “activity”). Binder tries to guarentee that active sessions will last up to 6 hours.\n\n\nWhat if my session shuts down during a break?\nWe will start from a fresh checkpoint after every break, so if your Binder session ends, you can just restart a new session and the beginning of the next section.\nIf you would like to run this tutorial locally on your own computer, please follow the instructions below."
+  },
+  {
+    "objectID": "index.html#installation-instructions",
+    "href": "index.html#installation-instructions",
+    "title": "How the Little Jupyter Notebook Became a Web App: A Tutorial for Making Your Code and Data More Accessible and Reusable",
+    "section": "Installation Instructions",
+    "text": "Installation Instructions\n\nClone this repository with git clone jupyter-web-app-template\nIf you don’t have it already, you will need to download and install Miniconda\nRun conda env create -f environment.yml to create a conda environment called jupyter-web-application\nRun conda activate jupyter-web-application to activate the conda environment\nRun jupyter lab to launch JupyterLab"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "How the Little Jupyter Notebook Became a Web App: A Tutorial for Making Your Code and Data More Accessible and Reusable",
+    "section": "How to use",
+    "text": "How to use\nWe will follow the notebooks in the tutorial sequentially, starting with 00_getting_started.ipynb. We will then transition to editing notebooks in the nbs directory that contains a full web application. You will be instructed when to do so from the numbered notebooks."
+  }
+]
