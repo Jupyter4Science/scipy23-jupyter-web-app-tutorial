@@ -50,4 +50,9 @@ d = { 'settings': { 'branch': 'main',
                                                            'jupyter_web_app_template.data.view.select.DataSelectView': ( 'data.view.select.html#dataselectview',
                                                                                                                          'jupyter_web_app_template/data/view/select.py'),
                                                            'jupyter_web_app_template.data.view.select.DataSelectView.__init__': ( 'data.view.select.html#dataselectview.__init__',
-                                                                                                                                  'jupyter_web_app_template/data/view/select.py')}}}
+                                                                                                                                  'jupyter_web_app_template/data/view/select.py')},
+            'jupyter_web_app_template.main': { 'jupyter_web_app_template.main.Main': ('main.html#main', 'jupyter_web_app_template/main.py'),
+                                               'jupyter_web_app_template.main.Main.__init__': ( 'main.html#main.__init__',
+                                                                                                'jupyter_web_app_template/main.py'),
+                                               'jupyter_web_app_template.main.Main._on_next_step_btn_click': ( 'main.html#main._on_next_step_btn_click',
+                                                                                                               'jupyter_web_app_template/main.py')}}}
