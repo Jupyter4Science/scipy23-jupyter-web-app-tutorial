@@ -36,7 +36,7 @@ class DataModel(HasTraits):
         self.from_year = self.min
         
     @observe('from_year')
-    def _observe_to_year(self, change):
+    def _observe_from_year(self, change):
         self.selected = self.df[(self.df['Year'] >= int(change['new'])) & (self.df['Year'] <= int(self.to_year))]
         self.len = len(self.df.index)
         
@@ -122,4 +122,7 @@ class DataModel(HasTraits):
         return pd.read_csv(self.path, escapechar='#')
         
     def __repr__(self):
-        return json.dumps(self.trait_values(), indent=2)
+        values = self.trait_values()
+        values['df'] = 'call display to view'
+        values['selected'] = 'call display to view'
+        return json.dumps(values, indent=2)
