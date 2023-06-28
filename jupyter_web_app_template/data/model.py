@@ -4,7 +4,7 @@
 __all__ = ['DataModel']
 
 # %% ../../nbs/data.model.ipynb 2
-from traitlets import HasTraits, TraitError, Unicode, Int, Float, validate, observe
+from traitlets import HasTraits, TraitError, Unicode, Int, Float, Unicode, validate, observe
 import pandas as pd
 import ipywidgets as widgets
 from scipy.signal import savgol_filter
@@ -24,6 +24,7 @@ class DataModel(HasTraits):
     poly_order = Int(default_value = 3)
     min = Int()
     max = Int()
+    smoothing_type = Unicode(default_value='Temperature')
     
     def __init__(self, path='../data/land-ocean-temp-index.csv'):
         self.path = path
