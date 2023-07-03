@@ -9,12 +9,39 @@ Prior exposure to ipywidgets and/or familiarity with object-oriented
 programming is recommended. We review the basics of ipywidgets within
 the first hour and quickly move on to more advanced design principles.
 
+## Installation Instructions
+
+There are two ways to access this tutorial. We recommend installing the
+environment locally with Anaconda or Miniconda, but if you experience
+trouble and need a quick backup, feel free to launch this tutorial with
+Binder.
+
+## Local Installation
+
+If you would like to run this tutorial locally on your own computer,
+please follow these instructions:
+
+1.  Clone this repository with `git clone jupyter-web-app-template`
+2.  If you don’t have it already, you will need to [download and install
+    Miniconda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
+3.  Run `conda env create -f environment.yml` to create a conda
+    environment called `jupyter-web-application`
+4.  Run `conda activate jupyter-web-application` to activate the conda
+    environment
+5.  Run `jupyter lab` to launch JupyterLab
+
+## How to use
+
+We will follow the notebooks in the tutorial sequentially, starting with
+`00_getting_started.ipynb`. We will then transition to editing notebooks
+in the `nbs` directory that contains a full web application. You will be
+instructed when to do so from the numbered notebooks.
+
 ## Binder
 
-There are two ways to access this tutorial. You can launch these
-notebooks in a Binder environment by clicking the badge below. This
-requires not extra installation on your part. Just click the link and
-follow along.
+You can launch these notebooks in a Binder environment by clicking the
+badge below. This requires not extra installation on your part. Just
+click the link and follow along.
 
 <div>
 
@@ -36,24 +63,3 @@ to guarentee that active sessions will last up to 6 hours.
 We will start from a fresh checkpoint after every break, so if your
 Binder session ends, you can just restart a new session and the
 beginning of the next section.
-
-If you would like to run this tutorial locally on your own computer,
-please follow the instructions below.
-
-## Installation Instructions
-
-1.  Clone this repository with `git clone jupyter-web-app-template`
-2.  If you don’t have it already, you will need to [download and install
-    Miniconda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
-3.  Run `conda env create -f environment.yml` to create a conda
-    environment called `jupyter-web-application`
-4.  Run `conda activate jupyter-web-application` to activate the conda
-    environment
-5.  Run `jupyter lab` to launch JupyterLab
-
-## How to use
-
-We will follow the notebooks in the tutorial sequentially, starting with
-`00_getting_started.ipynb`. We will then transition to editing notebooks
-in the `nbs` directory that contains a full web application. You will be
-instructed when to do so from the numbered notebooks.
