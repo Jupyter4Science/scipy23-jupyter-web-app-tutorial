@@ -21,7 +21,7 @@ Binder.
 If you would like to run this tutorial locally on your own computer,
 please follow these instructions:
 
-1.  Clone this repository with `git clone jupyter-web-app-template`
+1.  Clone this repository with `git clone https://github.com/nicole-brewer/scipy23-jupyter-web-app-tutorial`
 2.  If you don’t have it already, you will need to [download and install
     Miniconda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
 3.  Run `conda env create -f environment.yml` to create a conda
