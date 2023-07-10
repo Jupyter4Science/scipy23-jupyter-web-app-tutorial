@@ -73,7 +73,7 @@ poly_order.observe(display_selected_data, 'value')
 # %% ../../_dashboarding.ipynb 76
 def on_window_size_change(change):
     global original_data, selected, poly_order
-    poly_order.max = change['new'] - 1 # change the maximum of the poly_order widget
+    poly_order.max = min(10, change['new'] - 1) # change the maximum of the poly_order widget
     original_data['Savitzky-Golay'] = savgol_filter(original_data['Temperature'], change['new'], poly_order.value)
     selected = original_data[(original_data['Year'] >= year_range.value[0]) & (original_data['Year'] <= year_range.value[1])]
 
