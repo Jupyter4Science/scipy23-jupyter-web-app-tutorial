@@ -1,2 +1,1 @@
-
-%load dashboard.__init__ 
+%load dashboard/__init__.py
