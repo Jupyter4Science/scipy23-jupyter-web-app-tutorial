@@ -20,14 +20,15 @@ Binder.
 If you would like to run this tutorial locally on your own computer,
 please follow these instructions:
 
-1.  Clone this repository with `git clone https://github.com/nicole-brewer/scipy23-jupyter-web-app-tutorial`
-2.  If you don’t have it already, you will need to [download and install
+1.  Clone this repository with `git clone https://github.com/nicole-brewer/scipy23-jupyter-web-app-tutorial.git`
+2.  Run `cd scipy23-jupyter-web-app-tutorial`
+3.  If you don’t have it already, you will need to [download and install
     Miniconda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
-3.  Run `conda env create -f environment.yml` to create a conda
+5.  Run `conda env create -f environment.yml` to create a conda
     environment called `jupyter-web-application`
 4.  Run `conda activate jupyter-web-application` to activate the conda
-    environment
-5.  Run `jupyter lab` to launch JupyterLab
+6   environment
+7.  Run `jupyter lab` to launch JupyterLab
 
 ## How to use
 
